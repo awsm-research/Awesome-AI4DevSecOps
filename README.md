@@ -2,11 +2,14 @@
 <h3> Awesome AI (Machine Learning / Deep Learning) For DevSecOps</h3>
 </div>
 
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/awsm-research/Awesome-AI4DevSecOps)
+![](https://img.shields.io/badge/PRs-Welcome-green)
+
 ---
 
 Recently, the advancement of artificial intelligence (AI) has revolutionized automation in various software domains, including software security. AI-driven security approaches, particularly those leveraging machine learning or deep learning, hold promise in automating security workflows. They could reduce manual efforts, which can be integrated into DevOps to ensure uninterrupted delivery speed and align with the DevSecOps paradigm simultaneously.
 
-We identified 12 security tasks associated with the DevOps process and reviewed current AI-driven security approaches. Through this analysis, we uncovered 15 challenges faced by these approaches and outlined potential opportunities for future research.
+We identified 12 security tasks associated with the DevSecOps process and reviewed current AI-driven security approaches. Through this analysis, we uncovered 15 challenges faced by these approaches and outlined potential opportunities for future research.
 
 <div align="center">
 <img src="imgs/devsecops.png" alt="Paper Collection" width="600" style="vertical-align: middle;" />
@@ -14,14 +17,26 @@ We identified 12 security tasks associated with the DevOps process and reviewed 
 
 ---
 
+🦉 Comprehensive resources for our AI for DevSecOps survey, authored by [Michael Fu](https://michaelfu1998-create.github.io/), [Jirat Pasuksmit](https://www.linkedin.com/in/jirat-pasuksmit-1999b7b0/?originalSubdomain=au), and [Chakkrit Tantithamthavorn](https://chakkrit.com/)
+
+👩‍🔧 Please let us know if you notice any mistakes or have any suggestions!
+
+🚀 If you find this resource helpful, please consider to star this repository and cite our survey paper:
+```
+@article{fu2024ai,
+  title={AI for DevSecOps: A Landscape and Future Opportunities},
+  author={Fu, Michael and Pasuksmit, Jirat and Tantithamthavorn, Chakkrit},
+  journal={arXiv preprint arXiv:2404.04839},
+  year={2024}
+}
+```
+
 ## 📢 News
 - 📌 [August-23-2024] First revision of our AI4DevSecOps survey is completed
 - 📌 [April-07-2024] Our AI4DevSecOps survey (v1) is available on arXiv [📝](https://arxiv.org/abs/2404.04839)
 
-## Table of Contents
-- [Threat Modeling](#Threat-Modeling)
-
 ## <img src="imgs/collection.png" alt="Paper Collection" width="30" style="vertical-align: middle;" /> Paper Collection
+**Current Landscape of AI-Driven Security Appoaches in DevSecOps (Section 4 in our paper)**
 
 ### <img src="imgs/plan.png" alt="Plan" width="30" style="vertical-align: middle;" /> Plan
 
@@ -337,6 +352,72 @@ We identified 12 security tasks associated with the DevOps process and reviewed 
 | [BATADAL](https://ascelibrary.org/doi/abs/10.1061/(ASCE)WR.1943-5452.0000969)                | 2018 |            | ✔ |
 | [MSDS](https://ieeexplore.ieee.org/abstract/document/10025560/)                      | 2023 | ✔ |            |
   
+</div>
+
+---
+
+<div align="center">
+  
+## Identified 15 Challenges of AI-Driven Security Approach in DevSecOps (Section 5 in our paper)
+
+|         DevOps Step         |        Identified Security Task       |                      Themes of Challenges                      |
+|:---------------------------:|:-------------------------------------:|:--------------------------------------------------------------:|
+|             Plan            |            Threat Modeling            |                                -                               |
+|                             |        Software Impact Analysis       |                                -                               |
+|         Development         |    Software Vulnerability Detection   | C1-1 - Data Imbalance                                          |
+|                             |                                       | C4 - Cross Project                                             |
+|                             |                                       | C5 - MBU Vulnerabilities                                       |
+|                             |                                       | C6 - Data Quality                                              |
+|                             | Software Vulnerability Classification | C1-2 - Data Imbalance                                          |
+|                             |                                       | C7 - Incompleted CWE Tree                                      |
+|                             |     Automated Vulnerability Repair    | C2-1 - Model Explainability                                    |
+|                             |                                       | C8 - Sequence Length and Computing Resource                    |
+|                             |                                       | C9 - Loss of Pre-Trained Knowledge                             |
+|                             |                                       | C10 - Automated Repair on Real-World Scenarios                 |
+|                             |         Security Tools in IDEs        | C3-1 - Lack of AI Security Tooling in IDEs                     |
+|         Code Commit         |         CI/CD Secure Pipelines        | C2-2 - Model Explainability                                    |
+|                             |                                       | C3-2 - Lack of AI Security Tooling in CI/CD                    |
+|                             |                                       | C11 - The Use of RNNs                                          |
+| Build, Test, and Deployment |        Configuration Validation       | C12 - Complex Feature Space                                    |
+|                             |        Infrastructure Scanning        | C3-3 - Lack of AI Security Tooling for Infrastructure Scanning |
+|                             |                                       | C13 - Manual Feature Engineering                               |
+|   Operation and Monitoring  |   Log Analysis and Anomaly Detection  | C2-3 - Model Explainability                                    |
+|                             |                                       | C14 - Normality Drift for Zero-Positive Anomaly Detection      |
+|                             |         Cyber-Physical Systems        | C15 - Monitoring Multiple Cyber-Attacks Simultaneously         |
+
+</div>
+
+---
+
+<div align="center">
+  
+## Identified 15 Research Directions of AI-Driven Security Approach in DevSecOps (Section 5 in our paper)
+
+|         DevOps Step         |        Identified Security Task       |                         Research Opportunity                        |
+|:---------------------------:|:-------------------------------------:|:-------------------------------------------------------------------:|
+|             Plan            |            Threat Modeling            |                                  -                                  |
+|                             |        Software Impact Analysis       |                                  -                                  |
+|         Development         |    Software Vulnerability Detection   | R1-1 - Data augmentation and logit adjustment                       |
+|                             |                                       | R4 - Evaluate cross-project SVD with diverse CWE-IDs                |
+|                             |                                       | R5 - Evaluate SVD on MBU vulnerabilities                            |
+|                             |                                       | R6 - Address data inaccuracy from automatic data collection.        |
+|                             | Software Vulnerability Classification | R1-2 - Meta-learning and LLMs                                       |
+|                             |                                       | R7 - Develop advanced tree-based SVC                                |
+|                             |     Automated Vulnerability Repair    | R2-1 - Evidence-based explainable AI (XAI)                          |
+|                             |                                       | R8 - Explore transformer variants that can process longer sequences |
+|                             |                                       | R9 - Explore different training paradigms during fine-tuning        |
+|                             |                                       | R10 - Address limitations of LLMs                                   |
+|                             |         Security Tools in IDEs        | R3-1 - AI tool deployment and comprehensive tool evaluation         |
+|         Code Commit         |         CI/CD Secure Pipelines        | R2-2 - Explainable AI (XAI) for DL Models                           |
+|                             |                                       | R3-2 - AI tool deployment in CI/CD pipelines                        |
+|                             |                                       | R11 - Explore LMs and LLMs                                          |
+| Build, Test, and Deployment |        Configuration Validation       | R12 - Explore transformers for tabular data                         |
+|                             |        Infrastructure Scanning        | R3-3 - AI tool deployment and post-deployment evaluation            |
+|                             |                                       | R13 - Explore DL-based techniques                                   |
+|   Operation and Monitoring  |   Log Analysis and Anomaly Detection  | R2-3 - Explainable AI (XAI) for ML Models                           |
+|                             |                                       | R14 - Enhance normality drift detection                             |
+|                             |         Cyber-Physical Systems        | R15 - Distributed anomaly detection and multi-agent systems         |
+
 </div>
 
 ---
