@@ -4,7 +4,9 @@
 
 ---
 
-TODO...
+Recently, the advancement of artificial intelligence (AI) has revolutionized automation in various software domains, including software security. AI-driven security approaches, particularly those leveraging machine learning or deep learning, hold promise in automating security workflows. They could reduce manual efforts, which can be integrated into DevOps to ensure uninterrupted delivery speed and align with the DevSecOps paradigm simultaneously.
+
+We identified 12 security tasks associated with the DevOps process and reviewed current AI-driven security approaches. Through this analysis, we uncovered 15 challenges faced by these approaches and outlined potential opportunities for future research.
 
 <div align="center">
 <img src="imgs/devsecops.png" alt="Paper Collection" width="600" style="vertical-align: middle;" />
@@ -12,7 +14,14 @@ TODO...
 
 ---
 
-## <img src="imgs/collection.png" alt="Paper Collection" width="50" style="vertical-align: middle;" /> Paper Collection
+## 📢 News
+- 📌 [August-23-2024] First revision of our AI4DevSecOps survey is completed
+- 📌 [April-07-2024] Our AI4DevSecOps survey (v1) is available on arXiv [📝](https://arxiv.org/abs/2404.04839)
+
+## Table of Contents
+- [Threat Modeling](#Threat-Modeling)
+
+## <img src="imgs/collection.png" alt="Paper Collection" width="30" style="vertical-align: middle;" /> Paper Collection
 
 ### <img src="imgs/plan.png" alt="Plan" width="30" style="vertical-align: middle;" /> Plan
 
