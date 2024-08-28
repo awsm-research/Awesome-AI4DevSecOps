@@ -6,6 +6,10 @@
 
 TODO...
 
+<div align="center">
+<img src="imgs/devsecops.png" alt="Paper Collection" width="800" style="vertical-align: middle;" />
+</div>
+
 ## <img src="imgs/collection.png" alt="Paper Collection" width="50" style="vertical-align: middle;" /> Paper Collection
 
 ### <img src="imgs/plan.png" alt="Plan" width="30" style="vertical-align: middle;" /> Plan
@@ -47,6 +51,31 @@ TODO...
   - LM + GNN
     - VELVET: a noVel Ensemble Learning approach to automatically locate VulnErable sTatements (SANER, 2022) [📄]()
     - Dataflow Analysis-Inspired Deep Learning for Efficient Vulnerability Detection (ICSE, 2023) [📄]()
+
+<div align="center">
+<b>Benchmarks used in evaluating AI-driven software vefect drediction</b>
+  
+|                 Benchmark                | Year |  Granularity  | Programming Language | Real-World |  Synthesis |
+|:----------------------------------------:|:----:|:-------------:|:--------------------:|:----------:|:----------:|
+| [Firefox](https://link.springer.com/article/10.1007/s10664-011-9190-8)               | 2013 |      File     |        C, C++        | ✔ |            |
+| [Android](https://ieeexplore.ieee.org/abstract/document/6860243/) | 2014 |      File     |         Java         | ✔ |            |
+| [Draper](https://ieeexplore.ieee.org/abstract/document/8614145/)       | 2018 |    Function   |        C, C++        | ✔ | ✔ |
+| [Vuldeepecker](https://arxiv.org/abs/1801.01681)   | 2018 |  Code Gadget  |        C, C++        | ✔ | ✔ |
+| [Du et al.](https://ieeexplore.ieee.org/abstract/document/8812029/)                      | 2019 |    Function   |        C, C++        | ✔ |            |
+| [Devign](https://proceedings.neurips.cc/paper_files/paper/2019/hash/49265d2447bc3bbfe9e76306ce40a31f-Abstract.html)             | 2019 |    Function   |        C, C++        | ✔ |            |
+| [FUNDED](https://ieeexplore.ieee.org/abstract/document/9293321/)          | 2020 |    Function   |  C, Java, Swift, PHP | ✔ | ✔ |
+| [Big-Vul](https://dl.acm.org/doi/abs/10.1145/3379597.3387501)                 | 2020 | Function/Line |        C, C++        | ✔ |            |
+| [Reveal](https://ieeexplore.ieee.org/abstract/document/9448435/)        | 2021 |    Function   |        C, C++        | ✔ |            |
+| [Cao et al.](https://www.sciencedirect.com/science/article/pii/S0950584921000586)                     | 2021 |    Function   |        C, C++        | ✔ |            |
+| [D2A](https://ieeexplore.ieee.org/abstract/document/9402126/)                  | 2021 |    Function   |        C, C++        | ✔ |            |
+| [Deepwukong](https://dl.acm.org/doi/abs/10.1145/3436877)    | 2021 |    Function   |        C, C++        | ✔ | ✔ |
+| [Vuldeelocator](https://ieeexplore.ieee.org/abstract/document/9416836/) | 2021 |      Line     |        C, C++        | ✔ | ✔ |
+| [VulCNN](https://dl.acm.org/doi/abs/10.1145/3510003.3510229)               | 2022 |    Function   |        C, C++        | ✔ | ✔ |
+| [VUDENC](https://www.sciencedirect.com/science/article/pii/S0950584921002421)     | 2022 |     Token     |        Python        | ✔ |            |
+| [DeepVD](https://ieeexplore.ieee.org/abstract/document/10172789/)             | 2023 |    Function   |        C, C++        | ✔ |            |
+| [VulChecker](https://www.usenix.org/conference/usenixsecurity23/presentation/mirsky)   | 2023 |  Instruction  |        C, C++        | ✔ |            |
+  
+</div>
 
 - **Software Vulnerability Classification (SVC)**
   - Machine Learning (ML)
@@ -136,6 +165,24 @@ TODO...
     - JITO: a tool for just-in-time defect identification and localization (FSE, 2020) [📄]()
   - ML-based Change Analysis Tool
     - Rex: Preventing bugs and misconfiguration in large services using correlated change analysis (USENIX, 2020) [📄]()
+
+<div align="center">
+<b>Benchmarks used in evaluating AI-driven just-in-time (JIT) software defect prediction</b>
+  
+|                Benchmark                | Year | Granularity |      Programming Language      | Real-World | Synthesis |
+|:---------------------------------------:|:----:|:-----------:|:------------------------------:|:----------:|:---------:|
+| [PROMISE](http://promise.site.uottawa.ca/SERepository/)    | 2007 |    Commit   |              Java              | ✔ |           |
+| [Kamei et al.](https://ieeexplore.ieee.org/abstract/document/6341763/)                  | 2012 |    Commit   | C, C++, Java, JavaScript, Perl | ✔ |           |
+| [Qt & OpenStack](https://dl.acm.org/doi/abs/10.1145/3180155.3182514)  | 2018 | Commit/Line |           C++, Python          | ✔ |           |
+| [Cabral et al.](https://ieeexplore.ieee.org/abstract/document/8812072/)                 | 2019 | Commit/File |    Java, JavaScript, Python    | ✔ |           |
+| [Yan et al.](https://ieeexplore.ieee.org/abstract/document/9026802/)                     | 2020 | Commit/File |              Java              | ✔ |           |
+| [Wattanakriengkrai et al.](https://ieeexplore.ieee.org/abstract/document/9193975/) | 2020 |    Commit   |              Java              | ✔ |           |
+| [Suh](https://dl.acm.org/doi/abs/10.1145/3368089.3417062)                 | 2020 | Commit/File |         JavaScript, PHP        | ✔ |           |
+  
+</div>
+
+
+
 
 ### <img src="imgs/test.png" alt="Test" width="30" style="vertical-align: middle;" /> Build, Test, and Deployment
 
