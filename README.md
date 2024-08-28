@@ -11,42 +11,158 @@ TODO...
 ### <img src="imgs/plan.png" alt="Plan" width="30" style="vertical-align: middle;" /> Plan
 
 - **Threat Modeling**
-  - [List of papers]
+  - N/A (TODO)
 
 - **Impact Analysis**
-  - [List of papers]
+  - N/A (TODO)
 
 ### <img src="imgs/dev.png" alt="Dev" width="30" style="vertical-align: middle;" /> Development
 
 - **Software Vulnerability Detection (SVD)**
-  - [List of papers]
+  - Recurrent Neural Network (RNN)
+    - Automatic feature learning for predicting vulnerable software components (TSE, 2018) [📄](https://ieeexplore.ieee.org/abstract/document/8540022)
+    - Automated vulnerability detection in source code using deep representation learning (ICMLA, 2018) [📄](https://ieeexplore.ieee.org/abstract/document/8614145)
+    - Vuldeepecker: A deep learning-based system for vulnerability detection (NDSS, 2018) [📄](https://arxiv.org/abs/1801.01681)
+    - Vuldeelocator: a deep learning-based fine-grained vulnerability detector (TDSC, 2021) [📄](https://ieeexplore.ieee.org/abstract/document/9416836)
+    - VUDENC: vulnerability detection with deep learning on a natural codebase for Python (IST, 2022) [📄](https://www.sciencedirect.com/science/article/pii/S0950584921002421)
+  - Text Convolutional Neural Network (TextCNN)
+    - A software vulnerability detection method based on deep learning with complex network analysis and subgraph partition (IST, 2023) [📄](https://www.sciencedirect.com/science/article/pii/S0950584923001830)
+  - Graph Neural Network (GNN)
+    - Devign: Effective vulnerability identification by learning comprehensive program semantics via graph neural networks (NeurIPS, 2019) [📄](https://proceedings.neurips.cc/paper_files/paper/2019/hash/49265d2447bc3bbfe9e76306ce40a31f-Abstract.html)
+    - Bgnn4vd: Constructing bidirectional graph neural-network for vulnerability detection (IST, 2021) [📄](https://www.sciencedirect.com/science/article/pii/S0950584921000586)
+    - Deep learning based vulnerability detection: Are we there yet (TSE, 2021) [📄](https://ieeexplore.ieee.org/abstract/document/9448435/)
+    - Vulnerability detection with fine-grained interpretations (FSE, 2021) [📄](https://dl.acm.org/doi/abs/10.1145/3468264.3468597)
+    - LineVD: Statement-level vulnerability detection using graph neural networks (MSR, 2022) [📄]()
+    - mVulPreter: A Multi-Granularity Vulnerability Detection System With Interpretations (TDSC, 2022) [📄]()
+    - VulChecker: Graph-based Vulnerability Localization in Source Code (USENIX, 2022) [📄]()
+    - CPVD: Cross Project Vulnerability Detection Based On Graph Attention Network And Domain Adaptation (TSE, 2023) [📄]()
+    - DeepVD: Toward Class-Separation Features for Neural Network Vulnerability Detection (ICSE, 2023) [📄]()
+    - Learning Program Semantics for Vulnerability Detection via Vulnerability-Specific Inter-procedural Slicing (FSE, 2023) [📄]()
+    - SedSVD: Statement-level software vulnerability detection based on Relational Graph Convolutional Network with subgraph embedding (IST, 2023) [📄]()
+  - Node2Vec
+    - Enhancing Deep Learning-based Vulnerability Detection by Building Behavior Graph Model (ICSE, 2023) [📄]()
+  - Pre-trained Code Language Model (CLM) (Transformers)
+    - Linevul: A transformer-based line-level vulnerability prediction (MSR, 2022) [📄](https://dl.acm.org/doi/abs/10.1145/3524842.3528452)
+    - Vulnerability Detection by Learning from Syntax-Based Execution Paths of Code (TSE, 2023) [📄]()
+  - LM + GNN
+    - VELVET: a noVel Ensemble Learning approach to automatically locate VulnErable sTatements (SANER, 2022) [📄]()
+    - Dataflow Analysis-Inspired Deep Learning for Efficient Vulnerability Detection (ICSE, 2023) [📄]()
 
 - **Software Vulnerability Classification (SVC)**
-  - [List of papers]
-
+  - Machine Learning (ML)
+    - Automation of vulnerability classification from its description using machine learning (ISCC, 2020) [📄]()
+    - A machine learning approach to classify security patches into vulnerability types (CNS, 2020) [📄]()
+  - RNN
+    - Vuldeepecker: A deep learning-based system for vulnerability detection (NDSS, 2018) [📄](https://arxiv.org/abs/1801.01681)
+    - μVulDeePecker: A Deep Learning-Based System for Multiclass Vulnerability Detection (TDSC, 2019) [📄]()
+  - Text Recurrent Convolutional Neural Network (TextRCNN)
+    - DeKeDVer: A deep learning-based multi-type software vulnerability classification framework using vulnerability description and source code (IST, 2023) [📄]()
+  - Vanilla Transformer
+    - Towards Vulnerability Types Classification Using Pure Self-Attention: A Common Weakness Enumeration Based Approach (CSE, 2021) [📄]()
+  - Pre-trained Language Model (LM) (Transformers)
+    - V2w-bert: A framework for effective hierarchical multiclass classification of software vulnerabilities (DSAA, 2021) [📄]()
+    - Prediction of Vulnerability Characteristics Based on Vulnerability Description and Prompt Learning (SANER, 2023) [📄]()
+  - CLM
+    - VulExplainer: A Transformer-based Hierarchical Distillation for Explaining Vulnerability Types (TSE, 2023) [📄]()
+    - AIBugHunter: A Practical tool for predicting, classifying and repairing software vulnerabilities (EMSE, 2023) [📄]()
+  - CLM + RNN
+    - Fine-grained commit-level vulnerability type prediction by CWE tree structure (ICSE, 2023) [📄]()
+  
 - **Automated Vulnerability Repair (AVR)**
-  - [List of papers]
+  - ML
+    - Sqlifix: Learning based approach to fix sql injection vulnerabilities in source code (SANER, 2021) [📄]()
+  - CNN
+    - Coconut: combining context-aware neural translation models using ensemble for program repair (ISSTA, 2020) [📄]()
+  - RNN
+    - Sequencer: Sequence-to-sequence learning for end-to-end program repair (TSE, 2019) [📄]()
+    - A controlled experiment of different code representations for learning-based program repair (EMSE, 2022) [📄]()
+  - Tree-based RNN
+    - Dlfix: Context-based code transformation learning for automated program repair (ICSE, 2020) [📄]()
+  - GNN
+    - Hoppity: Learning graph transformations to detect and fix bugs in programs (ICLR, 2020) [📄]()
+  - Vanilla Transformer
+    - A syntax-guided edit decoder for neural program repair (FSE, 2021) [📄]()
+    - Neural transfer learning for repairing security vulnerabilities in c code (TSE, 2022) [📄]()
+    - Seqtrans: automatic vulnerability fix via sequence to sequence learning (TSE, 2022) [📄]()
+    - Tare: Type-aware neural program repair (ICSE, 2023) [📄]()
+  - CLM
+    - Cure: Code-aware neural machine translation for automatic program repair (ICSE, 2021) [📄]()
+    - Applying codebert for automated program repair of java simple bugs (MSR, 2021) [📄]()
+    - Tfix: Learning to fix coding errors with a text-to-text transformer (PMLR, 2021) [📄]()
+    - VulRepair: a T5-based automated software vulnerability repair (FSE, 2022) [📄]()
+    - Improving automated program repair with domain adaptation (TOSEM, 2022) [📄]()
+    - Vision Transformer-Inspired Automated Vulnerability Repair (TOSEM, 2023) [📄]()
+    - Enhancing Code Language Models for Program Repair by Curricular Fine-tuning Framework (ICSME, 2023) [📄]()
+    - Pre-trained model-based automated software vulnerability repair: How far are we? (TDSC, 2023) [📄]()
+    - Examining zero-shot vulnerability repair with large language models (SP, 2023) [📄]()
+    - Inferfix: End-to-end program repair with llms (FSE, 2023) [📄](https://dl.acm.org/doi/10.1145/3611643.3613892)
+    - Unifying Defect Prediction, Categorization, and Repair by Multi-Task Deep Learning (ASE, 2023) [📄]()
+
+- **Security Tools in IDEs**
+  - LM-based Security Tool
+    - AIBugHunter: A Practical tool for predicting, classifying and repairing software vulnerabilities (EMSE, 2023) [📄]()
 
 ### <img src="imgs/commit.png" alt="Commit" width="30" style="vertical-align: middle;" /> Code Commit
 
 - **Dependency Management**
-  - [List of papers]
+  - N/A (TODO)
 
 - **CI/CD Secure Pipelines**
-  - [List of papers]
+  - ML
+    - Improving missing issue-commit link recovery using positive and unlabeled data (ASE, 2017) [📄]()
+    - MULTI: Multi-objective effort-aware just-in-time software defect prediction (IST, 2018) [📄]()
+    - Class imbalance evolution and verification latency in just-in-time software defect prediction (ICSE, 2019) [📄]()
+    - Fine-grained just-in-time defect prediction (JSS, 2019) [📄]()
+    - Effort-aware semi-supervised just-in-time defect prediction (IST, 2020) [📄]()
+    - Just-in-time defect identification and localization: A two-phase framework (TSE, 2020) [📄]()
+    - Adapting bug prediction models to predict reverted commits at Wayfair (FSE, 2020) [📄]()
+    - JITLine: A simpler, better, faster, finer-grained just-in-time defect prediction (MSR, 2021) [📄]()
+    - Enhancing just-in-time defect prediction using change request-based metrics (SANER, 2021) [📄]()
+  - Explainable AI (XAI) For ML
+    - Pyexplainer: Explaining the predictions of just-in-time defect models (ASE, 2021) [📄]()
+  - RNN
+    - DeepLink: Recovering issue-commit links based on deep learning (JSS, 2019) [📄]()
+    - Deeplinedp: Towards a deep learning approach for line-level defect prediction (TSE, 2022) [📄]()
+  - Tree-based RNN
+    - Lessons learned from using a deep tree-based model for software defect prediction in practice (MSR, 2019) [📄]()
+  - Vanilla Transformer
+    - Deep just-in-time defect localization (TSE, 2021) [📄]()
+  - LM
+    - BTLink: automatic link recovery between issues and commits based on pre-trained BERT model (EMSE, 2023) [📄]()
+  - CLM
+    - EALink: An Efficient and Accurate Pre-trained Framework for Issue-Commit Link Recovery (ASE, 2023) [📄]() 
+  - ML-based Just-In-Time (JIT) Software Defect Prediction (SDP) Tool
+    - JITBot: an explainable just-in-time defect prediction bot (ASE, 2020) [📄]()
+    - JITO: a tool for just-in-time defect identification and localization (FSE, 2020) [📄]()
+  - ML-based Change Analysis Tool
+    - Rex: Preventing bugs and misconfiguration in large services using correlated change analysis (USENIX, 2020) [📄]()
 
 ### <img src="imgs/test.png" alt="Test" width="30" style="vertical-align: middle;" /> Build, Test, and Deployment
 
 - **Configuration Validation**
-  - [List of papers]
+  - ML
+    - Tuning configuration of apache spark on public clouds by combining multi-objective optimization and performance prediction model (JSS, 2021) [📄]()
+    - KGSecConfig: A Knowledge Graph Based Approach for Secured Container Orchestrator Configuration (SANER, 2022) [📄]()
+    - CoMSA: A Modeling-Driven Sampling Approach for Configuration Performance Testing (ASE, 2023) [📄]()
+  - Feed-Forward Neural Network (FFNN)
+    - DeepPerf: Performance prediction for configurable software with deep sparse neural network (ICSE, 2019) [📄]()
+  - Generative Adversarial Network (GAN)
+    - ACTGAN: automatic configuration tuning for software systems with generative adversarial networks (ASE, 2019) [📄]()
+    - Perf-AL: Performance prediction for configurable software through adversarial learning (ESEM, 2020) [📄]()
 
 - **Infrastructure Scanning**
-  - [List of papers]
+  - ML
+    - Characterizing defective configuration scripts used for continuous deployment (ICST, 2018) [📄]()
+    - Source code properties of defective infrastructure as code scripts (IST, 2019) [📄]()
+    - Within-project defect prediction of infrastructure-as-code using product and process metrics (TSE, 2021) [📄]()
+  - Word2Vec-CBOW (Continuous Bag of Words)
+    - FindICI: Using machine learning to detect linguistic inconsistencies between code and natural language descriptions in infrastructure-as-code (EMSE, 2022) [📄]()
 
 ### <img src="imgs/monitor.png" alt="Monitor" width="30" style="vertical-align: middle;" /> Operation & Monitoring
 
 - **Log Analysis & Anomaly Detection**
-  - [List of papers]
+  - ML
+    - An anomaly detection system based on variable N-gram features and one-class SVM (IST, 2017) [📄]()
 
 - **Cyber-Physical Systems**
   - [List of papers]
