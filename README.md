@@ -11,10 +11,10 @@ TODO...
 ### <img src="imgs/plan.png" alt="Plan" width="30" style="vertical-align: middle;" /> Plan
 
 - **Threat Modeling**
-  - N/A (TODO)
+  - *No Relevant Publications Identified Using Our Defined Search Strategy*
 
 - **Impact Analysis**
-  - N/A (TODO)
+  - *No Relevant Publications Identified Using Our Defined Search Strategy*
 
 ### <img src="imgs/dev.png" alt="Dev" width="30" style="vertical-align: middle;" /> Development
 
@@ -105,7 +105,7 @@ TODO...
 ### <img src="imgs/commit.png" alt="Commit" width="30" style="vertical-align: middle;" /> Code Commit
 
 - **Dependency Management**
-  - N/A (TODO)
+  - *No Relevant Publications Identified Using Our Defined Search Strategy*
 
 - **CI/CD Secure Pipelines**
   - ML
@@ -163,8 +163,46 @@ TODO...
 - **Log Analysis & Anomaly Detection**
   - ML
     - An anomaly detection system based on variable N-gram features and one-class SVM (IST, 2017) [📄]()
+    - Anomaly detection and diagnosis for cloud services: Practical experiments and lessons learned (JSS, 2018) [📄]()
+    - Adaptive performance anomaly detection in distributed systems using online svms (TDSC, 2018) [📄]()
+    - Log-based anomaly detection with robust feature extraction and online learning (TIFS, 2021) [📄]()
+    - Try with Simpler--An Evaluation of Improved Principal Component Analysis in Log-based Anomaly Detection (TOSEM, 2023) [📄]()
+    - On the effectiveness of log representation for log-based anomaly detection (EMSE, 2023) [📄]()
+  - RNN
+    - Deeplog: Anomaly detection and diagnosis from system logs through deep learning (CCS, 2017) [📄]()
+    - Robust log-based anomaly detection on unstable log data (FSE, 2019) [📄]()
+    - Loganomaly: Unsupervised detection of sequential and quantitative anomalies in unstructured logs (IJCAI, 2019) [📄]()
+    - Anomaly detection in operating system logs with deep learning-based sentiment analysis (TDSC, 2020) [📄]()
+    - SwissLog: Robust anomaly detection and localization for interleaved unstructured logs (TDSC, 2022) [📄]()
+    - DeepSyslog: Deep Anomaly Detection on Syslog Using Sentence Embedding and Metadata (TIFS, 2022) [📄]()
+    - LogOnline: A Semi-Supervised Log-Based Anomaly Detector Aided with Online Learning Mechanism (ASE, 2023) [📄]()
+    - On the effectiveness of log representation for log-based anomaly detection (EMSE, 2023) [📄]()
+  - RNN-based AutoEncoder (AE)
+    - Lifelong anomaly detection through unlearning (CCS, 2019) [📄]()
+    - Recompose event sequences vs. predict next events: A novel anomaly detection approach for discrete event logs (CCS, 2021) [📄]()
+  - GNN
+    - LogGraph: Log Event Graph Learning Aided Robust Fine-Grained Anomaly Diagnosis (TDSC, 2023) [📄]()
+  - Vanilla Transformer
+    - Log-based anomaly detection without log parsing (ASE, 2021) [📄]()
+  - XAI For Deep Learning (DL)
+    - Deepaid: Interpreting and improving deep learning-based anomaly detection in security applications (CCS, 2021) [📄]()
+    - Towards an interpretable autoencoder: A decision-tree-based autoencoder and its application in anomaly detection (TDSC, 2022) [📄]()
+  - Conditional Diffusion Model
+    - Maat: Performance Metric Anomaly Anticipation for Cloud Services with Conditional Diffusion (ASE, 2023) [📄]()
 
 - **Cyber-Physical Systems**
-  - [List of papers]
-
+  - ML
+    - TABOR: A graphical model-based approach for anomaly detection in industrial control systems (CCS, 2018) [📄]()
+    - Adaptive-Correlation-aware Unsupervised Deep Learning for Anomaly Detection in Cyber-physical Systems (TDSC, 2023) [📄]()
+  - RNN + GNN
+    - Digital Twin-based Anomaly Detection with Curriculum Learning in Cyber-physical Systems (TOSEM, 2023) [📄]()
+  - GAN
+    - Digital twin-based anomaly detection in cyber-physical systems (ICST, 2021) [📄]()
+  - Variational AutoEncoder (VAE)
+    - From Point-wise to Group-wise: A Fast and Accurate Microservice Trace Anomaly Detection Approach (FSE, 2023) [📄]()
+  - Vanilla Transformer
+    - Twin Graph-Based Anomaly Detection via Attentive Multi-Modal Learning for Microservice System (ASE, 2023) [📄]()
+  - LM + RNN
+    - KDDT: Knowledge Distillation-Empowered Digital Twin for Anomaly Detection (FSE, 2023) [📄]()
+    
 ---
