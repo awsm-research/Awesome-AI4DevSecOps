@@ -6,11 +6,9 @@
 
 TODO...
 
-![Image](link-to-image)
+## <img src="imgs/collection.png" alt="Paper Collection" width="50" style="vertical-align: middle;" /> Paper Collection
 
-## Papers Collection
-
-### Plan
+### <img src="imgs/plan.png" alt="Plan" width="30" style="vertical-align: middle;" /> Plan
 
 - **Threat Modeling**
   - [List of papers]
@@ -18,7 +16,7 @@ TODO...
 - **Impact Analysis**
   - [List of papers]
 
-### Development
+### <img src="imgs/dev.png" alt="Dev" width="30" style="vertical-align: middle;" /> Development
 
 - **Software Vulnerability Detection (SVD)**
   - [List of papers]
@@ -29,7 +27,7 @@ TODO...
 - **Automated Vulnerability Repair (AVR)**
   - [List of papers]
 
-### Code Commit
+### <img src="imgs/commit.png" alt="Commit" width="30" style="vertical-align: middle;" /> Code Commit
 
 - **Dependency Management**
   - [List of papers]
@@ -37,7 +35,7 @@ TODO...
 - **CI/CD Secure Pipelines**
   - [List of papers]
 
-### Build, Test, and Deployment
+### <img src="imgs/test.png" alt="Test" width="30" style="vertical-align: middle;" /> Build, Test, and Deployment
 
 - **Configuration Validation**
   - [List of papers]
@@ -45,7 +43,7 @@ TODO...
 - **Infrastructure Scanning**
   - [List of papers]
 
-### Operation & Monitoring
+### <img src="imgs/monitor.png" alt="Monitor" width="30" style="vertical-align: middle;" /> Operation & Monitoring
 
 - **Log Analysis & Anomaly Detection**
   - [List of papers]
