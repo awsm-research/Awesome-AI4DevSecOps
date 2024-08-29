@@ -47,10 +47,10 @@ If you have a valuable **resource, tool, or idea related to AI for DevSecOps**, 
 # Description: [Briefly describe your contribution, its purpose, and relevance.]
 
 # Type of Contribution
-- [ ] Tool/Library
 - [ ] Research Paper
-- [ ] Tutorial/Guide
 - [ ] Dataset
+- [ ] Tool/Library
+- [ ] Tutorial/Guide
 - [ ] Other (please specify):
 
 # Paper/Resource Link: [Provide the link here]
