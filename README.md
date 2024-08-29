@@ -89,21 +89,21 @@ Thank you for helping us improve Awesome-AI4DevSecOps!
     - Bgnn4vd: Constructing bidirectional graph neural-network for vulnerability detection (IST, 2021) [📝](https://www.sciencedirect.com/science/article/pii/S0950584921000586)
     - Deep learning based vulnerability detection: Are we there yet (TSE, 2021) [📝](https://ieeexplore.ieee.org/abstract/document/9448435/)
     - Vulnerability detection with fine-grained interpretations (FSE, 2021) [📝](https://dl.acm.org/doi/abs/10.1145/3468264.3468597)
-    - LineVD: Statement-level vulnerability detection using graph neural networks (MSR, 2022) [📝]()
-    - mVulPreter: A Multi-Granularity Vulnerability Detection System With Interpretations (TDSC, 2022) [📝]()
-    - VulChecker: Graph-based Vulnerability Localization in Source Code (USENIX, 2022) [📝]()
-    - CPVD: Cross Project Vulnerability Detection Based On Graph Attention Network And Domain Adaptation (TSE, 2023) [📝]()
-    - DeepVD: Toward Class-Separation Features for Neural Network Vulnerability Detection (ICSE, 2023) [📝]()
-    - Learning Program Semantics for Vulnerability Detection via Vulnerability-Specific Inter-procedural Slicing (FSE, 2023) [📝]()
-    - SedSVD: Statement-level software vulnerability detection based on Relational Graph Convolutional Network with subgraph embedding (IST, 2023) [📝]()
+    - LineVD: Statement-level vulnerability detection using graph neural networks (MSR, 2022) [📝](https://dl.acm.org/doi/abs/10.1145/3524842.3527949)
+    - mVulPreter: A Multi-Granularity Vulnerability Detection System With Interpretations (TDSC, 2022) [📝](https://ieeexplore.ieee.org/abstract/document/9864301/)
+    - VulChecker: Graph-based Vulnerability Localization in Source Code (USENIX, 2022) [📝](https://www.usenix.org/conference/usenixsecurity23/presentation/mirsky)
+    - CPVD: Cross Project Vulnerability Detection Based On Graph Attention Network And Domain Adaptation (TSE, 2023) [📝](https://ieeexplore.ieee.org/abstract/document/10149539/)
+    - DeepVD: Toward Class-Separation Features for Neural Network Vulnerability Detection (ICSE, 2023) [📝](https://ieeexplore.ieee.org/abstract/document/10172789/)
+    - Learning Program Semantics for Vulnerability Detection via Vulnerability-Specific Inter-procedural Slicing (FSE, 2023) [📝](https://dl.acm.org/doi/abs/10.1145/3611643.3616351)
+    - SedSVD: Statement-level software vulnerability detection based on Relational Graph Convolutional Network with subgraph embedding (IST, 2023) [📝](https://www.sciencedirect.com/science/article/pii/S0950584923000228)
   - **`Node2Vec`**
-    - Enhancing Deep Learning-based Vulnerability Detection by Building Behavior Graph Model (ICSE, 2023) [📝]()
+    - Enhancing Deep Learning-based Vulnerability Detection by Building Behavior Graph Model (ICSE, 2023) [📝](https://ieeexplore.ieee.org/abstract/document/10172844/)
   - **`Pre-trained Code Language Model (CLM) (Transformers)`**
     - Linevul: A transformer-based line-level vulnerability prediction (MSR, 2022) [📝](https://dl.acm.org/doi/abs/10.1145/3524842.3528452)
-    - Vulnerability Detection by Learning from Syntax-Based Execution Paths of Code (TSE, 2023) [📝]()
+    - Vulnerability Detection by Learning from Syntax-Based Execution Paths of Code (TSE, 2023) [📝](https://ieeexplore.ieee.org/abstract/document/10153647/)
   - **`LM + GNN`**
-    - VELVET: a noVel Ensemble Learning approach to automatically locate VulnErable sTatements (SANER, 2022) [📝]()
-    - Dataflow Analysis-Inspired Deep Learning for Efficient Vulnerability Detection (ICSE, 2023) [📝]()
+    - VELVET: a noVel Ensemble Learning approach to automatically locate VulnErable sTatements (SANER, 2022) [📝](https://ieeexplore.ieee.org/abstract/document/9825786/)
+    - Dataflow Analysis-Inspired Deep Learning for Efficient Vulnerability Detection (ICSE, 2023) [📝](https://dl.acm.org/doi/abs/10.1145/3597503.3623345)
 
 <div align="center">
 <b>Benchmarks used in evaluating AI-driven software vulnerability detection</b>
@@ -132,23 +132,23 @@ Thank you for helping us improve Awesome-AI4DevSecOps!
 
 - **Software Vulnerability Classification (SVC)**
   - **`Machine Learning (ML)`**
-    - Automation of vulnerability classification from its description using machine learning (ISCC, 2020) [📝]()
-    - A machine learning approach to classify security patches into vulnerability types (CNS, 2020) [📝]()
+    - Automation of vulnerability classification from its description using machine learning (ISCC, 2020) [📝](https://ieeexplore.ieee.org/abstract/document/9219568/)
+    - A machine learning approach to classify security patches into vulnerability types (CNS, 2020) [📝](https://ieeexplore.ieee.org/abstract/document/9162237/)
   - **`RNN`**
     - Vuldeepecker: A deep learning-based system for vulnerability detection (NDSS, 2018) [📝](https://arxiv.org/abs/1801.01681)
-    - μVulDeePecker: A Deep Learning-Based System for Multiclass Vulnerability Detection (TDSC, 2019) [📝]()
+    - μVulDeePecker: A Deep Learning-Based System for Multiclass Vulnerability Detection (TDSC, 2019) [📝](https://ieeexplore.ieee.org/abstract/document/8846081/)
   - **`Text Recurrent Convolutional Neural Network (TextRCNN)`**
-    - DeKeDVer: A deep learning-based multi-type software vulnerability classification framework using vulnerability description and source code (IST, 2023) [📝]()
+    - DeKeDVer: A deep learning-based multi-type software vulnerability classification framework using vulnerability description and source code (IST, 2023) [📝](https://www.sciencedirect.com/science/article/pii/S0950584923001441)
   - **`Vanilla Transformer`**
-    - Towards Vulnerability Types Classification Using Pure Self-Attention: A Common Weakness Enumeration Based Approach (CSE, 2021) [📝]()
+    - Towards Vulnerability Types Classification Using Pure Self-Attention: A Common Weakness Enumeration Based Approach (CSE, 2021) [📝](https://ieeexplore.ieee.org/abstract/document/9724608/)
   - **`Pre-trained Language Model (LM) (Transformers)`**
-    - V2w-bert: A framework for effective hierarchical multiclass classification of software vulnerabilities (DSAA, 2021) [📝]()
-    - Prediction of Vulnerability Characteristics Based on Vulnerability Description and Prompt Learning (SANER, 2023) [📝]()
+    - V2w-bert: A framework for effective hierarchical multiclass classification of software vulnerabilities (DSAA, 2021) [📝](https://ieeexplore.ieee.org/abstract/document/9564227/)
+    - Prediction of Vulnerability Characteristics Based on Vulnerability Description and Prompt Learning (SANER, 2023) [📝](https://ieeexplore.ieee.org/abstract/document/10123485/)
   - **`CLM`**
-    - VulExplainer: A Transformer-based Hierarchical Distillation for Explaining Vulnerability Types (TSE, 2023) [📝]()
-    - AIBugHunter: A Practical tool for predicting, classifying and repairing software vulnerabilities (EMSE, 2023) [📝]()
+    - VulExplainer: A Transformer-based Hierarchical Distillation for Explaining Vulnerability Types (TSE, 2023) [📝](https://ieeexplore.ieee.org/abstract/document/10220166/)
+    - AIBugHunter: A Practical tool for predicting, classifying and repairing software vulnerabilities (EMSE, 2023) [📝](https://link.springer.com/article/10.1007/s10664-023-10346-3)
   - **`CLM + RNN`**
-    - Fine-grained commit-level vulnerability type prediction by CWE tree structure (ICSE, 2023) [📝]()
+    - Fine-grained commit-level vulnerability type prediction by CWE tree structure (ICSE, 2023) [📝](https://ieeexplore.ieee.org/abstract/document/10172785/)
 
 <div align="center">
 <b>Benchmarks used in evaluating AI-driven software vulnerability classification</b>
@@ -162,7 +162,7 @@ Thank you for helping us improve Awesome-AI4DevSecOps!
 
 - **Automated Vulnerability Repair (AVR)**
   - **`ML`**
-    - Sqlifix: Learning based approach to fix sql injection vulnerabilities in source code (SANER, 2021) [📝]()
+    - Sqlifix: Learning based approach to fix sql injection vulnerabilities in source code (SANER, 2021) [📝](https://ieeexplore.ieee.org/abstract/document/9425978/)
   - **`CNN`**
     - Coconut: combining context-aware neural translation models using ensemble for program repair (ISSTA, 2020) [📝]()
   - **`RNN`**
