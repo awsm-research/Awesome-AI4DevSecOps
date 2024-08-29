@@ -62,6 +62,11 @@ Thank you for helping us improve Awesome-AI4DevSecOps!
 
 ---
 
+## Table of Contents
+
+- [Development](#development)
+  - [Software Vulnerability Detection (SVD)](#software-vulnerability-detection-svd)
+
 ## <img src="imgs/collection.png" alt="Paper Collection" width="30" style="vertical-align: middle;" /> Paper Collection
 **Current Landscape of AI-Driven Security Appoaches in DevSecOps (Section 4 in our paper)**
 
@@ -75,7 +80,7 @@ Thank you for helping us improve Awesome-AI4DevSecOps!
 
 ### <img src="imgs/dev.png" alt="Dev" width="30" style="vertical-align: middle;" /> Development
 
-- **Software Vulnerability Detection (SVD)**
+- **[Software Vulnerability Detection (SVD)](#software-vulnerability-detection-svd)**
   - **`Recurrent Neural Network (RNN)`**
     - Automatic feature learning for predicting vulnerable software components (TSE, 2018) [📝](https://ieeexplore.ieee.org/abstract/document/8540022)
     - Automated vulnerability detection in source code using deep representation learning (ICMLA, 2018) [📝](https://ieeexplore.ieee.org/abstract/document/8614145)
