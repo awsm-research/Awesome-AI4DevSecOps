@@ -1,5 +1,5 @@
 <div align="center">
-<h3> Awesome AI (Machine Learning / Deep Learning) For DevSecOps</h3>
+<h2> Awesome AI (Machine Learning / Deep Learning) For DevSecOps</h2>
 </div>
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/awsm-research/Awesome-AI4DevSecOps)
@@ -34,6 +34,33 @@ We identified 12 security tasks associated with the DevSecOps process and review
 ## 📢 News
 - 📌 [August-23-2024] First revision of our AI4DevSecOps survey is completed
 - 📌 [April-07-2024] Our AI4DevSecOps survey (v1) is available on arXiv [📝](https://arxiv.org/abs/2404.04839)
+
+## 🤝 Contributing to Awesome-AI4DevSecOps
+
+**We welcome contributions from the community!**
+
+If you have a valuable **resource, tool, or idea related to AI for DevSecOps**, please submit your PR using the following template.
+
+🔥 This is a great opportunity to **share and promote your work, research, or projects with a wider audience!**
+
+```markdown
+# Description: [Briefly describe your contribution, its purpose, and relevance.]
+
+# Type of Contribution
+- [ ] Tool/Library
+- [ ] Research Paper
+- [ ] Tutorial/Guide
+- [ ] Dataset
+- [ ] Other (please specify):
+
+# Paper/Resource Link: [Provide the link here]
+```
+
+We will review and merge your contribution if it is appropriate and relevant to our project.
+
+Thank you for helping us improve Awesome-AI4DevSecOps!
+
+---
 
 ## <img src="imgs/collection.png" alt="Paper Collection" width="30" style="vertical-align: middle;" /> Paper Collection
 **Current Landscape of AI-Driven Security Appoaches in DevSecOps (Section 4 in our paper)**
