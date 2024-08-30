@@ -164,31 +164,31 @@ Thank you for helping us improve Awesome-AI4DevSecOps!
   - **`ML`**
     - Sqlifix: Learning based approach to fix sql injection vulnerabilities in source code (SANER, 2021) [📝](https://ieeexplore.ieee.org/abstract/document/9425978/)
   - **`CNN`**
-    - Coconut: combining context-aware neural translation models using ensemble for program repair (ISSTA, 2020) [📝]()
+    - Coconut: combining context-aware neural translation models using ensemble for program repair (ISSTA, 2020) [📝](https://dl.acm.org/doi/abs/10.1145/3395363.3397369)
   - **`RNN`**
-    - Sequencer: Sequence-to-sequence learning for end-to-end program repair (TSE, 2019) [📝]()
-    - A controlled experiment of different code representations for learning-based program repair (EMSE, 2022) [📝]()
+    - Sequencer: Sequence-to-sequence learning for end-to-end program repair (TSE, 2019) [📝](https://ieeexplore.ieee.org/abstract/document/8827954/)
+    - A controlled experiment of different code representations for learning-based program repair (EMSE, 2022) [📝](https://link.springer.com/article/10.1007/s10664-022-10223-5)
   - **`Tree-based RNN`**
-    - Dlfix: Context-based code transformation learning for automated program repair (ICSE, 2020) [📝]()
+    - Dlfix: Context-based code transformation learning for automated program repair (ICSE, 2020) [📝](https://dl.acm.org/doi/abs/10.1145/3377811.3380345)
   - **`GNN`**
-    - Hoppity: Learning graph transformations to detect and fix bugs in programs (ICLR, 2020) [📝]()
+    - Hoppity: Learning graph transformations to detect and fix bugs in programs (ICLR, 2020) [📝](https://par.nsf.gov/servlets/purl/10210341)
   - **`Vanilla Transformer`**
-    - A syntax-guided edit decoder for neural program repair (FSE, 2021) [📝]()
-    - Neural transfer learning for repairing security vulnerabilities in c code (TSE, 2022) [📝]()
-    - Seqtrans: automatic vulnerability fix via sequence to sequence learning (TSE, 2022) [📝]()
-    - Tare: Type-aware neural program repair (ICSE, 2023) [📝]()
+    - A syntax-guided edit decoder for neural program repair (FSE, 2021) [📝](https://dl.acm.org/doi/abs/10.1145/3468264.3468544)
+    - Neural transfer learning for repairing security vulnerabilities in c code (TSE, 2022) [📝](https://ieeexplore.ieee.org/abstract/document/9699412/)
+    - Seqtrans: automatic vulnerability fix via sequence to sequence learning (TSE, 2022) [📝](https://ieeexplore.ieee.org/abstract/document/9729554/)
+    - Tare: Type-aware neural program repair (ICSE, 2023) [📝](https://ieeexplore.ieee.org/abstract/document/10172781/)
   - **`CLM`**
-    - Cure: Code-aware neural machine translation for automatic program repair (ICSE, 2021) [📝]()
-    - Applying codebert for automated program repair of java simple bugs (MSR, 2021) [📝]()
-    - Tfix: Learning to fix coding errors with a text-to-text transformer (PMLR, 2021) [📝]()
-    - VulRepair: a T5-based automated software vulnerability repair (FSE, 2022) [📝]()
-    - Improving automated program repair with domain adaptation (TOSEM, 2022) [📝]()
-    - Vision Transformer-Inspired Automated Vulnerability Repair (TOSEM, 2023) [📝]()
-    - Enhancing Code Language Models for Program Repair by Curricular Fine-tuning Framework (ICSME, 2023) [📝]()
-    - Pre-trained model-based automated software vulnerability repair: How far are we? (TDSC, 2023) [📝]()
-    - Examining zero-shot vulnerability repair with large language models (SP, 2023) [📝]()
+    - Cure: Code-aware neural machine translation for automatic program repair (ICSE, 2021) [📝](https://ieeexplore.ieee.org/abstract/document/9401997/)
+    - Applying codebert for automated program repair of java simple bugs (MSR, 2021) [📝](https://ieeexplore.ieee.org/abstract/document/9463106/)
+    - Tfix: Learning to fix coding errors with a text-to-text transformer (PMLR, 2021) [📝](http://proceedings.mlr.press/v139/berabi21a.html)
+    - VulRepair: a T5-based automated software vulnerability repair (FSE, 2022) [📝](https://dl.acm.org/doi/abs/10.1145/3540250.3549098)
+    - Improving automated program repair with domain adaptation (TOSEM, 2022) [📝](https://dl.acm.org/doi/abs/10.1145/3631972)
+    - Vision Transformer-Inspired Automated Vulnerability Repair (TOSEM, 2023) [📝](https://dl.acm.org/doi/abs/10.1145/3632746)
+    - Enhancing Code Language Models for Program Repair by Curricular Fine-tuning Framework (ICSME, 2023) [📝](https://ieeexplore.ieee.org/abstract/document/10336339/)
+    - Pre-trained model-based automated software vulnerability repair: How far are we? (TDSC, 2023) [📝](https://ieeexplore.ieee.org/abstract/document/10232867/)
+    - Examining zero-shot vulnerability repair with large language models (SP, 2023) [📝](https://ieeexplore.ieee.org/abstract/document/10179324/)
     - Inferfix: End-to-end program repair with llms (FSE, 2023) [📝](https://dl.acm.org/doi/10.1145/3611643.3613892)
-    - Unifying Defect Prediction, Categorization, and Repair by Multi-Task Deep Learning (ASE, 2023) [📝]()
+    - Unifying Defect Prediction, Categorization, and Repair by Multi-Task Deep Learning (ASE, 2023) [📝](https://ieeexplore.ieee.org/abstract/document/10298436/)
 
 <div align="center">
 <b>Benchmarks used in evaluating AI-driven just-in-time (JIT) automated program/vulnerability repair</b>
@@ -217,7 +217,7 @@ Thank you for helping us improve Awesome-AI4DevSecOps!
 
 - **Security Tools in IDEs**
   - **`LM-based Security Tool`**
-    - AIBugHunter: A Practical tool for predicting, classifying and repairing software vulnerabilities (EMSE, 2023) [📝]()
+    - AIBugHunter: A Practical tool for predicting, classifying and repairing software vulnerabilities (EMSE, 2023) [📝](https://link.springer.com/article/10.1007/s10664-023-10346-3)
 
 ### <img src="imgs/commit.png" alt="Commit" width="30" style="vertical-align: middle;" /> Code Commit
 
@@ -226,33 +226,33 @@ Thank you for helping us improve Awesome-AI4DevSecOps!
 
 - **CI/CD Secure Pipelines**
   - **`ML`**
-    - Improving missing issue-commit link recovery using positive and unlabeled data (ASE, 2017) [📝]()
-    - MULTI: Multi-objective effort-aware just-in-time software defect prediction (IST, 2018) [📝]()
-    - Class imbalance evolution and verification latency in just-in-time software defect prediction (ICSE, 2019) [📝]()
-    - Fine-grained just-in-time defect prediction (JSS, 2019) [📝]()
-    - Effort-aware semi-supervised just-in-time defect prediction (IST, 2020) [📝]()
-    - Just-in-time defect identification and localization: A two-phase framework (TSE, 2020) [📝]()
-    - Adapting bug prediction models to predict reverted commits at Wayfair (FSE, 2020) [📝]()
-    - JITLine: A simpler, better, faster, finer-grained just-in-time defect prediction (MSR, 2021) [📝]()
-    - Enhancing just-in-time defect prediction using change request-based metrics (SANER, 2021) [📝]()
+    - Improving missing issue-commit link recovery using positive and unlabeled data (ASE, 2017) [📝](https://ieeexplore.ieee.org/abstract/document/8115627/)
+    - MULTI: Multi-objective effort-aware just-in-time software defect prediction (IST, 2018) [📝](https://www.sciencedirect.com/science/article/pii/S0950584917304627?casa_token=3Seqv31xdeEAAAAA:SWdx5-v8-q8sIXClT0QPvcP9xfpDhXXqEfXBr0SUpPHwviZ8kWvvzYWLt9f1MjjI4cxOUxybjzA)
+    - Class imbalance evolution and verification latency in just-in-time software defect prediction (ICSE, 2019) [📝](https://ieeexplore.ieee.org/abstract/document/8812072/)
+    - Fine-grained just-in-time defect prediction (JSS, 2019) [📝](https://www.sciencedirect.com/science/article/pii/S0164121218302656?casa_token=5Fk9aT_H2P4AAAAA:xHQn14M4yeZFBmB-siy0aJKFGBROeGc76e78ieiJxadU3J9a3zwk1oML1zQtk57ZnLHYTTJCJLk)
+    - Effort-aware semi-supervised just-in-time defect prediction (IST, 2020) [📝](https://www.sciencedirect.com/science/article/pii/S0950584920301324?casa_token=OgCOLkYyc7cAAAAA:FW7uZ8qnPJX5nzA6fr1QtC0tUWRFeejMJkwGs_fsqJzbIQy-kA8jmT8-KyNJxzsy4lwsgswhGZA)
+    - Just-in-time defect identification and localization: A two-phase framework (TSE, 2020) [📝](https://ieeexplore.ieee.org/abstract/document/9026802/)
+    - Adapting bug prediction models to predict reverted commits at Wayfair (FSE, 2020) [📝](https://dl.acm.org/doi/abs/10.1145/3368089.3417062)
+    - JITLine: A simpler, better, faster, finer-grained just-in-time defect prediction (MSR, 2021) [📝](https://ieeexplore.ieee.org/abstract/document/9463103/)
+    - Enhancing just-in-time defect prediction using change request-based metrics (SANER, 2021) [📝](https://ieeexplore.ieee.org/abstract/document/9426021/)
   - **`Explainable AI (XAI) For ML`**
-    - Pyexplainer: Explaining the predictions of just-in-time defect models (ASE, 2021) [📝]()
+    - Pyexplainer: Explaining the predictions of just-in-time defect models (ASE, 2021) [📝](https://ieeexplore.ieee.org/abstract/document/9678763/)
   - **`RNN`**
-    - DeepLink: Recovering issue-commit links based on deep learning (JSS, 2019) [📝]()
-    - Deeplinedp: Towards a deep learning approach for line-level defect prediction (TSE, 2022) [📝]()
+    - DeepLink: Recovering issue-commit links based on deep learning (JSS, 2019) [📝](https://www.sciencedirect.com/science/article/pii/S0164121219301803?casa_token=rgF6wMa1G3wAAAAA:QpWRYBH3U2m45gPkDTvdvUN4n__MM4YxURp7kwXVE9ABHvY_BrLrJb2x7mooBbHHQTX-kCjD8nw)
+    - Deeplinedp: Towards a deep learning approach for line-level defect prediction (TSE, 2022) [📝](https://ieeexplore.ieee.org/abstract/document/9689967/)
   - **`Tree-based RNN`**
-    - Lessons learned from using a deep tree-based model for software defect prediction in practice (MSR, 2019) [📝]()
+    - Lessons learned from using a deep tree-based model for software defect prediction in practice (MSR, 2019) [📝](https://ieeexplore.ieee.org/abstract/document/8816787/)
   - **`Vanilla Transformer`**
-    - Deep just-in-time defect localization (TSE, 2021) [📝]()
+    - Deep just-in-time defect localization (TSE, 2021) [📝](https://ieeexplore.ieee.org/abstract/document/9653844/)
   - **`LM`**
-    - BTLink: automatic link recovery between issues and commits based on pre-trained BERT model (EMSE, 2023) [📝]()
+    - BTLink: automatic link recovery between issues and commits based on pre-trained BERT model (EMSE, 2023) [📝](https://link.springer.com/article/10.1007/s10664-023-10342-7)
   - **`CLM`**
-    - EALink: An Efficient and Accurate Pre-trained Framework for Issue-Commit Link Recovery (ASE, 2023) [📝]() 
+    - EALink: An Efficient and Accurate Pre-trained Framework for Issue-Commit Link Recovery (ASE, 2023) [📝](https://ieeexplore.ieee.org/abstract/document/10298434/) 
   - **`ML-based Just-In-Time (JIT) Software Defect Prediction (SDP) Tool`**
-    - JITBot: an explainable just-in-time defect prediction bot (ASE, 2020) [📝]()
-    - JITO: a tool for just-in-time defect identification and localization (FSE, 2020) [📝]()
+    - JITBot: an explainable just-in-time defect prediction bot (ASE, 2020) [📝](https://dl.acm.org/doi/abs/10.1145/3324884.3415295)
+    - JITO: a tool for just-in-time defect identification and localization (FSE, 2020) [📝](https://dl.acm.org/doi/abs/10.1145/3368089.3417927)
   - **`ML-based Change Analysis Tool`**
-    - Rex: Preventing bugs and misconfiguration in large services using correlated change analysis (USENIX, 2020) [📝]()
+    - Rex: Preventing bugs and misconfiguration in large services using correlated change analysis (USENIX, 2020) [📝](https://www.usenix.org/conference/nsdi20/presentation/mehta)
 
 <div align="center">
 <b>Benchmarks used in evaluating AI-driven just-in-time (JIT) software defect prediction</b>
@@ -273,22 +273,22 @@ Thank you for helping us improve Awesome-AI4DevSecOps!
 
 - **Configuration Validation**
   - **`ML`**
-    - Tuning configuration of apache spark on public clouds by combining multi-objective optimization and performance prediction model (JSS, 2021) [📝]()
-    - KGSecConfig: A Knowledge Graph Based Approach for Secured Container Orchestrator Configuration (SANER, 2022) [📝]()
-    - CoMSA: A Modeling-Driven Sampling Approach for Configuration Performance Testing (ASE, 2023) [📝]()
+    - Tuning configuration of apache spark on public clouds by combining multi-objective optimization and performance prediction model (JSS, 2021) [📝](https://www.sciencedirect.com/science/article/pii/S0164121221001254?casa_token=7_lchxrmCgYAAAAA:9jGPfiTNqUReQpCcU0TVhgn0jZO4sPu3Px3Dsebjy26E2n7J8QBjMbRrzIWI7aL7uI325Qe4fEg)
+    - KGSecConfig: A Knowledge Graph Based Approach for Secured Container Orchestrator Configuration (SANER, 2022) [📝](https://ieeexplore.ieee.org/abstract/document/9825815/)
+    - CoMSA: A Modeling-Driven Sampling Approach for Configuration Performance Testing (ASE, 2023) [📝](https://ieeexplore.ieee.org/abstract/document/10298456/)
   - **`Feed-Forward Neural Network (FFNN)`**
-    - DeepPerf: Performance prediction for configurable software with deep sparse neural network (ICSE, 2019) [📝]()
+    - DeepPerf: Performance prediction for configurable software with deep sparse neural network (ICSE, 2019) [📝](https://ieeexplore.ieee.org/abstract/document/8811988/)
   - **`Generative Adversarial Network (GAN)`**
-    - ACTGAN: automatic configuration tuning for software systems with generative adversarial networks (ASE, 2019) [📝]()
-    - Perf-AL: Performance prediction for configurable software through adversarial learning (ESEM, 2020) [📝]()
+    - ACTGAN: automatic configuration tuning for software systems with generative adversarial networks (ASE, 2019) [📝](https://ieeexplore.ieee.org/abstract/document/8952456/)
+    - Perf-AL: Performance prediction for configurable software through adversarial learning (ESEM, 2020) [📝](https://dl.acm.org/doi/abs/10.1145/3382494.3410677)
 
 - **Infrastructure Scanning**
   - **`ML`**
-    - Characterizing defective configuration scripts used for continuous deployment (ICST, 2018) [📝]()
-    - Source code properties of defective infrastructure as code scripts (IST, 2019) [📝]()
-    - Within-project defect prediction of infrastructure-as-code using product and process metrics (TSE, 2021) [📝]()
+    - Characterizing defective configuration scripts used for continuous deployment (ICST, 2018) [📝](https://ieeexplore.ieee.org/abstract/document/8367034/)
+    - Source code properties of defective infrastructure as code scripts (IST, 2019) [📝](https://www.sciencedirect.com/science/article/pii/S0950584919300965?casa_token=BBKfgIWqM1sAAAAA:tjMVyNhbG_Ttbi2NDxC1EB2QLn3Bw2Z3fDzk-YI4Fve1kcw9Ofyfl9yzzHN_uTI9U9aLyDE6HJI)
+    - Within-project defect prediction of infrastructure-as-code using product and process metrics (TSE, 2021) [📝](https://ieeexplore.ieee.org/abstract/document/9321740/)
   - **`Word2Vec-CBOW (Continuous Bag of Words)`**
-    - FindICI: Using machine learning to detect linguistic inconsistencies between code and natural language descriptions in infrastructure-as-code (EMSE, 2022) [📝]()
+    - FindICI: Using machine learning to detect linguistic inconsistencies between code and natural language descriptions in infrastructure-as-code (EMSE, 2022) [📝](https://link.springer.com/article/10.1007/s10664-022-10215-5)
 
 <div align="center">
 <b>Benchmarks used in evaluating AI-driven infrastructure as code</b>
@@ -306,33 +306,33 @@ Thank you for helping us improve Awesome-AI4DevSecOps!
 
 - **Log Analysis & Anomaly Detection**
   - **`ML`**
-    - An anomaly detection system based on variable N-gram features and one-class SVM (IST, 2017) [📝]()
-    - Anomaly detection and diagnosis for cloud services: Practical experiments and lessons learned (JSS, 2018) [📝]()
-    - Adaptive performance anomaly detection in distributed systems using online svms (TDSC, 2018) [📝]()
-    - Log-based anomaly detection with robust feature extraction and online learning (TIFS, 2021) [📝]()
-    - Try with Simpler--An Evaluation of Improved Principal Component Analysis in Log-based Anomaly Detection (TOSEM, 2023) [📝]()
-    - On the effectiveness of log representation for log-based anomaly detection (EMSE, 2023) [📝]()
+    - An anomaly detection system based on variable N-gram features and one-class SVM (IST, 2017) [📝](https://www.sciencedirect.com/science/article/pii/S0950584917304548?casa_token=WP6-f5DpBgkAAAAA:mqDVK12ncXofHOu97IQ8hywrGSIA243iH5Uqr-yyCl0RP_oeJA_dUczXUeO9beRKcjDtBNAD7-Y)
+    - Anomaly detection and diagnosis for cloud services: Practical experiments and lessons learned (JSS, 2018) [📝](https://www.sciencedirect.com/science/article/pii/S0164121218300256?casa_token=nySUhBS7v-sAAAAA:nv8WPicbdkrFyfDolBcSEuTmNmF64Xc8W8qYcvV8oDc-zgFGWICUdHJvad96xzHlI9OB90fXLIo)
+    - Adaptive performance anomaly detection in distributed systems using online svms (TDSC, 2018) [📝](https://ieeexplore.ieee.org/abstract/document/8329134/)
+    - Log-based anomaly detection with robust feature extraction and online learning (TIFS, 2021) [📝](https://ieeexplore.ieee.org/abstract/document/9330769/)
+    - Try with Simpler--An Evaluation of Improved Principal Component Analysis in Log-based Anomaly Detection (TOSEM, 2023) [📝](https://dl.acm.org/doi/abs/10.1145/3644386)
+    - On the effectiveness of log representation for log-based anomaly detection (EMSE, 2023) [📝](https://link.springer.com/article/10.1007/s10664-023-10364-1)
   - **`RNN`**
-    - Deeplog: Anomaly detection and diagnosis from system logs through deep learning (CCS, 2017) [📝]()
-    - Robust log-based anomaly detection on unstable log data (FSE, 2019) [📝]()
-    - Loganomaly: Unsupervised detection of sequential and quantitative anomalies in unstructured logs (IJCAI, 2019) [📝]()
-    - Anomaly detection in operating system logs with deep learning-based sentiment analysis (TDSC, 2020) [📝]()
-    - SwissLog: Robust anomaly detection and localization for interleaved unstructured logs (TDSC, 2022) [📝]()
-    - DeepSyslog: Deep Anomaly Detection on Syslog Using Sentence Embedding and Metadata (TIFS, 2022) [📝]()
-    - LogOnline: A Semi-Supervised Log-Based Anomaly Detector Aided with Online Learning Mechanism (ASE, 2023) [📝]()
-    - On the effectiveness of log representation for log-based anomaly detection (EMSE, 2023) [📝]()
+    - Deeplog: Anomaly detection and diagnosis from system logs through deep learning (CCS, 2017) [📝](https://dl.acm.org/doi/abs/10.1145/3133956.3134015)
+    - Robust log-based anomaly detection on unstable log data (FSE, 2019) [📝](https://dl.acm.org/doi/abs/10.1145/3338906.3338931)
+    - Loganomaly: Unsupervised detection of sequential and quantitative anomalies in unstructured logs (IJCAI, 2019) [📝](https://nkcs.iops.ai/wp-content/uploads/2019/06/paper-IJCAI19-LogAnomaly.pdf)
+    - Anomaly detection in operating system logs with deep learning-based sentiment analysis (TDSC, 2020) [📝](https://ieeexplore.ieee.org/abstract/document/9259061/)
+    - SwissLog: Robust anomaly detection and localization for interleaved unstructured logs (TDSC, 2022) [📝](https://ieeexplore.ieee.org/abstract/document/9744513/)
+    - DeepSyslog: Deep Anomaly Detection on Syslog Using Sentence Embedding and Metadata (TIFS, 2022) [📝](https://ieeexplore.ieee.org/abstract/document/9865986/)
+    - LogOnline: A Semi-Supervised Log-Based Anomaly Detector Aided with Online Learning Mechanism (ASE, 2023) [📝](https://ieeexplore.ieee.org/abstract/document/10298477/)
+    - On the effectiveness of log representation for log-based anomaly detection (EMSE, 2023) [📝](https://link.springer.com/article/10.1007/s10664-023-10364-1)
   - **`RNN-based AutoEncoder (AE)`**
-    - Lifelong anomaly detection through unlearning (CCS, 2019) [📝]()
-    - Recompose event sequences vs. predict next events: A novel anomaly detection approach for discrete event logs (CCS, 2021) [📝]()
+    - Lifelong anomaly detection through unlearning (CCS, 2019) [📝](https://dl.acm.org/doi/abs/10.1145/3319535.3363226)
+    - Recompose event sequences vs. predict next events: A novel anomaly detection approach for discrete event logs (CCS, 2021) [📝](https://dl.acm.org/doi/abs/10.1145/3433210.3453098)
   - **`GNN`**
-    - LogGraph: Log Event Graph Learning Aided Robust Fine-Grained Anomaly Diagnosis (TDSC, 2023) [📝]()
+    - LogGraph: Log Event Graph Learning Aided Robust Fine-Grained Anomaly Diagnosis (TDSC, 2023) [📝](https://ieeexplore.ieee.org/abstract/document/10175570/)
   - **`Vanilla Transformer`**
-    - Log-based anomaly detection without log parsing (ASE, 2021) [📝]()
+    - Log-based anomaly detection without log parsing (ASE, 2021) [📝](https://ieeexplore.ieee.org/abstract/document/9678773/)
   - **`XAI For Deep Learning (DL)`**
-    - Deepaid: Interpreting and improving deep learning-based anomaly detection in security applications (CCS, 2021) [📝]()
-    - Towards an interpretable autoencoder: A decision-tree-based autoencoder and its application in anomaly detection (TDSC, 2022) [📝]()
+    - Deepaid: Interpreting and improving deep learning-based anomaly detection in security applications (CCS, 2021) [📝](https://dl.acm.org/doi/abs/10.1145/3460120.3484589)
+    - Towards an interpretable autoencoder: A decision-tree-based autoencoder and its application in anomaly detection (TDSC, 2022) [📝](https://ieeexplore.ieee.org/abstract/document/9705133/)
   - **`Conditional Diffusion Model`**
-    - Maat: Performance Metric Anomaly Anticipation for Cloud Services with Conditional Diffusion (ASE, 2023) [📝]()
+    - Maat: Performance Metric Anomaly Anticipation for Cloud Services with Conditional Diffusion (ASE, 2023) [📝](https://ieeexplore.ieee.org/abstract/document/10298323/)
 
 <div align="center">
 <b>Benchmarks used in evaluating AI-driven log analysis and anomaly detection</b>
@@ -355,18 +355,18 @@ Thank you for helping us improve Awesome-AI4DevSecOps!
 
 - **Cyber-Physical Systems**
   - **`ML`**
-    - TABOR: A graphical model-based approach for anomaly detection in industrial control systems (CCS, 2018) [📝]()
-    - Adaptive-Correlation-aware Unsupervised Deep Learning for Anomaly Detection in Cyber-physical Systems (TDSC, 2023) [📝]()
+    - TABOR: A graphical model-based approach for anomaly detection in industrial control systems (CCS, 2018) [📝](https://dl.acm.org/doi/abs/10.1145/3196494.3196546)
+    - Adaptive-Correlation-aware Unsupervised Deep Learning for Anomaly Detection in Cyber-physical Systems (TDSC, 2023) [📝](https://ieeexplore.ieee.org/abstract/document/10265213/)
   - **`RNN + GNN`**
-    - Digital Twin-based Anomaly Detection with Curriculum Learning in Cyber-physical Systems (TOSEM, 2023) [📝]()
+    - Digital Twin-based Anomaly Detection with Curriculum Learning in Cyber-physical Systems (TOSEM, 2023) [📝](https://dl.acm.org/doi/abs/10.1145/3582571)
   - **`GAN`**
-    - Digital twin-based anomaly detection in cyber-physical systems (ICST, 2021) [📝]()
+    - Digital twin-based anomaly detection in cyber-physical systems (ICST, 2021) [📝](https://ieeexplore.ieee.org/abstract/document/9438560/)
   - **`Variational AutoEncoder (VAE)`**
-    - From Point-wise to Group-wise: A Fast and Accurate Microservice Trace Anomaly Detection Approach (FSE, 2023) [📝]()
+    - From Point-wise to Group-wise: A Fast and Accurate Microservice Trace Anomaly Detection Approach (FSE, 2023) [📝](https://dl.acm.org/doi/abs/10.1145/3611643.3613861)
   - **`Vanilla Transformer`**
-    - Twin Graph-Based Anomaly Detection via Attentive Multi-Modal Learning for Microservice System (ASE, 2023) [📝]()
+    - Twin Graph-Based Anomaly Detection via Attentive Multi-Modal Learning for Microservice System (ASE, 2023) [📝](https://ieeexplore.ieee.org/abstract/document/10298321/)
   - **`LM + RNN`**
-    - KDDT: Knowledge Distillation-Empowered Digital Twin for Anomaly Detection (FSE, 2023) [📝]()
+    - KDDT: Knowledge Distillation-Empowered Digital Twin for Anomaly Detection (FSE, 2023) [📝](https://dl.acm.org/doi/abs/10.1145/3611643.3613879)
 
 <div align="center">
 <b>Benchmarks used in evaluating AI-driven log analysis and anomaly detection</b>
