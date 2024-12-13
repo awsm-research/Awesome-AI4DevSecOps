@@ -32,6 +32,7 @@ We identified 12 security tasks associated with the DevSecOps process and review
 ```
 
 ## 📢 News
+- 📌 [December-11-2024] Our paper has been accepted for publication in the ACM Transactions on Software Engineering and Methodology (TOSEM)!
 - 📌 [August-23-2024] First revision of our AI4DevSecOps survey is completed
 - 📌 [April-07-2024] Our AI4DevSecOps survey (v1) is available on arXiv [📝](https://arxiv.org/abs/2404.04839)
 
