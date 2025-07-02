@@ -23,11 +23,15 @@ We identified 12 security tasks associated with the DevSecOps process and review
 
 🚀 If you find this resource helpful, please consider to star this repository and cite our survey paper:
 ```
-@article{fu2024ai,
-  title={AI for DevSecOps: A Landscape and Future Opportunities},
+@article{fu2025ai,
+  title={Ai for devsecops: A landscape and future opportunities},
   author={Fu, Michael and Pasuksmit, Jirat and Tantithamthavorn, Chakkrit},
-  journal={arXiv preprint arXiv:2404.04839},
-  year={2024}
+  journal={ACM Transactions on Software Engineering and Methodology},
+  volume={34},
+  number={4},
+  pages={1--61},
+  year={2025},
+  publisher={ACM New York, NY}
 }
 ```
 
